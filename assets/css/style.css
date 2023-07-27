@@ -9,6 +9,15 @@ body{
     box-sizing: border-box;
     margin: 0;
 }
+@font-face {
+    font-family: astonpoliz;
+    src: url(../fonts/Astonpoliz/Astonpoliz.otf),url(../fonts/Astonpoliz/Astonpoliz.ttf);
+}
+*{
+    list-style: none;
+    text-decoration: none;
+    font-family: astonpoliz;
+}
 .container{
     width: 100%;
     display: flex;
@@ -24,6 +33,7 @@ body{
     width: 200px;
     background: blue;
     color: #fff;
+    font-size: 20px;
     /* text-align: center; */
     margin: 10px;
     padding: 20px 0;
